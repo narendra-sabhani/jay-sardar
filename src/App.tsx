@@ -1,11 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header';
+import Content from './components/Content';
 
 function App() {
   return (
-    <div className="App">
-
+    <div>
+      <Header />
+      <Content />
+      <div className="container-fluid">
+        <p className='fs-1'>In Development...</p>
+      </div>
     </div>
   );
 }
