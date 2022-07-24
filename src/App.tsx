@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Content />
+      {/* <Content /> */}
       <div className="container-fluid">
 
       </div>

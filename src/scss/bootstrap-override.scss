@@ -1,20 +1,16 @@
-@import './bootstrap-variables.scss';
+@import "./bootstrap-variables.scss";
 
 $navbar-brand-margin-end: #{$bs-navbar-brand-margin-end};
-$navbar-nav-link-padding-x:#{$navbar-nav-link-padding-x};
+$navbar-nav-link-padding-x: #{$navbar-nav-link-padding-x};
 
+/*nav bar*/
+$navbar-dark-active-color: $primary;
+$navbar-dark-color: rgba($secondary, 0.55);
+$navbar-dark-hover-color: rgba($primary, 0.75);
+$navbar-dark-active-color: $primary;
 
 $primary: $primary;
 $secondary: $secondary;
-$success: $success;
-$info: $info;
-$warning: $warning;
-$dark: $dark;
 
 //override boostrap scss variables above this line
 @import "../../node_modules/bootstrap/scss/bootstrap";
-
-
-
-
-
