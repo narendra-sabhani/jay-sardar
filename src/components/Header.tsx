@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header() {
     return (
-        <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
                 <a className="navbar-brand" href="##">
                     <img src={process.env.PUBLIC_URL + "jay-sardar-logo.png"} alt="" width="45" height="40" />

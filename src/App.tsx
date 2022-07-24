@@ -7,9 +7,8 @@ function App() {
   return (
     <div>
       <Header />
-      {/* <Content /> */}
-      <div className="container-fluid">
-
+      <div className="container">
+        <Content />
       </div>
     </div>
   );
