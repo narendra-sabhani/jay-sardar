@@ -3,6 +3,15 @@
 $navbar-brand-margin-end: #{$bs-navbar-brand-margin-end};
 $navbar-nav-link-padding-x:#{$navbar-nav-link-padding-x};
 
+
+$primary: $primary;
+$secondary: $secondary;
+$success: $success;
+$info: $info;
+$warning: $warning;
+$dark: $dark;
+
+//override boostrap scss variables above this line
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 

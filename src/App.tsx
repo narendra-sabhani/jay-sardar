@@ -9,7 +9,7 @@ function App() {
       <Header />
       <Content />
       <div className="container-fluid">
-        <p className='fs-1'>In Development...</p>
+
       </div>
     </div>
   );

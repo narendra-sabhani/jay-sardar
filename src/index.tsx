@@ -5,6 +5,7 @@ import './global.scss';
 import '../../jay-sardar/src/scss/bootstrap-override.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
