@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
 import './global.scss';
+import '../../jay-sardar/src/scss/bootstrap-override.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
