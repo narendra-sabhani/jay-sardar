@@ -1,6 +1,5 @@
-import React from 'react';
 
-function Content() {
+export function Home() {
     return (
         <>
             <div className="row p-2">
@@ -26,5 +25,3 @@ function Content() {
         </>
     )
 }
-
-export default Content;
