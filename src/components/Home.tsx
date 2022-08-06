@@ -2,7 +2,7 @@
 export function Home() {
     return (
         <>
-            <div className="row p-2">
+            {/* <div className="row p-2">
                 <div className="col-sm-6">
                     <div className="card">
                         <div className="card-body">
@@ -21,7 +21,8 @@ export function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
+            <h1>Home</h1>
         </>
     )
 }
