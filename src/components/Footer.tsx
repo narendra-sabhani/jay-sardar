@@ -1,6 +1,3 @@
-
-import { icon } from '@fortawesome/fontawesome-svg-core';
-import { faFacebook, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { faCopyright } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
