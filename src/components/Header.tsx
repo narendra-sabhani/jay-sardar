@@ -5,8 +5,8 @@ function Header() {
         <nav className="navbar navbar-expand-lg navbar-dark">
             <div className="container-fluid">
                 <a className="navbar-brand" href="##">
-                    <img src={process.env.PUBLIC_URL + "jay-sardar-logo.png"} alt="" width="45" height="40" />
-                    <img src={process.env.PUBLIC_URL + "jay-sardar-logo-name.png"} alt="" width="175" height="40" />
+                    <img src={process.env.PUBLIC_URL + "img/jay-sardar-logo.png"} alt="" width="50" height="40" />
+                    <img src={process.env.PUBLIC_URL + "img/jay-sardar-txt.png"} alt="" width="175" height="40" />
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-bar" aria-controls="nav-bar" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
