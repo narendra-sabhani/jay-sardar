@@ -1,3 +1,5 @@
+import { faCar, faCreditCard, faHouse, faTractor } from "@fortawesome/free-solid-svg-icons";
+import { Card } from "./Card";
 
 export function Home() {
     return (
@@ -29,46 +31,20 @@ export function Home() {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
-
-            <div className="row pt-4">
+            <div className="row pt-4 px-3">
                 <div className="col-sm-6">
-                    <div className="card">
-                        <div className="card-body">
-                            <h5 className="card-title">Special title treatment</h5>
-                            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="##" className="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
+                    <Card icon={faHouse} headerText="House Loan" />
                 </div>
                 <div className="col-sm-6">
-                    <div className="card">
-                        <div className="card-body">
-                            <h5 className="card-title">Special title treatment</h5>
-                            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="##" className="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
+                    <Card icon={faCar} headerText="Car Loan" />
                 </div>
             </div>
-
-            <div className="row pt-4">
+            <div className="row pt-4 px-3">
                 <div className="col-sm-6">
-                    <div className="card">
-                        <div className="card-body">
-                            <h5 className="card-title">Special title treatment</h5>
-                            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="##" className="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
+                    <Card icon={faCreditCard} headerText="Credit Card" />
                 </div>
                 <div className="col-sm-6">
-                    <div className="card">
-                        <div className="card-body">
-                            <h5 className="card-title">Special title treatment</h5>
-                            <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="##" className="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
+                    <Card icon={faTractor} headerText="Agri Loan" />
                 </div>
             </div>
         </>
