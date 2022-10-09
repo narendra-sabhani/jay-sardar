@@ -2,8 +2,8 @@ export function Contact() {
     return (
         <>
             <div className="about">
-                <img src={process.env.PUBLIC_URL + "img/hero-bg.jpg"} className="d-block w-100" height={350} alt="..." />
-                <h1 className="centered">Contact Us</h1>
+                <img src={process.env.PUBLIC_URL + "img/hero-bg.jpg"} className="d-block w-100 img-responsive"  alt="..." />
+                <label className="h1 centered">Contact Us</label>
             </div>
             <div className="row p-3">
                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
