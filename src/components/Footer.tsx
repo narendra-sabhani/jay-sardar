@@ -11,7 +11,7 @@ function Footer() {
                     <div className="row pt-4">
                         <div className="col-md-2 ">
                             <Link to="/">
-                                <img src={process.env.PUBLIC_URL + "img/jay-sardar-full-logo.png"} alt="" width="150" height="100" />
+                                <img src={process.env.PUBLIC_URL + "/img/jay-sardar-full-logo.png"} alt="" width="150" height="100" />
                             </Link>
                         </div>
                         <div className="col-md-3">
