@@ -1,9 +1,12 @@
 export function Contact() {
     return (
         <>
-            <div className="row">
+            <div className="about">
+                <img src={process.env.PUBLIC_URL + "img/hero-bg.jpg"} className="d-block w-100" height={350} alt="..." />
+                <h1 className="centered">Contact Us</h1>
+            </div>
+            <div className="row p-3">
                 <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <h4>Contact Us</h4>
                     <form className="row g-3">
                         <div className="col-md-6">
                             <div className="form-floating">

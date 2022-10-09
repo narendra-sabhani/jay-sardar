@@ -19,3 +19,14 @@ header, footer{
   color:  #8ec24a;;
 }
 
+.about{
+  position: relative;
+}
+.centered{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: #8ec24a;
+}
