@@ -19,8 +19,8 @@ export function About() {
                     Our firm provides consultancy services to a variety of clients, including farmers, consumers, business owners, and real estate agents.
                     We help drive <b>innovation</b>, <b>inclusion</b>, and <b>access</b> across industry.
                 </label>
-                <div className="p-5">
-                    <button type="submit" className="btn btn-primary">Contact us</button>
+                <div className="pt-5 text-center">
+                    <button type="button" className="btn btn-primary">Contact us</button>
                 </div>
             </div>
         </>
