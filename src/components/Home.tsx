@@ -1,4 +1,4 @@
-import { faCar, faCreditCard, faHouse, faTractor } from "@fortawesome/free-solid-svg-icons";
+import { faBuilding, faCar, faCreditCard, faHouse, faPerson, faTractor } from "@fortawesome/free-solid-svg-icons";
 import { Card } from "./Card";
 
 export function Home() {
@@ -32,19 +32,19 @@ export function Home() {
                 </button>
             </div>
             <div className="row pt-4 px-3">
-                <div className="col-sm-6">
-                    <Card icon={faHouse} headerText="House Loan" />
+                <div className="col-sm-6 pb-2">
+                    <Card icon={faHouse} headerText="Home Loan" />
                 </div>
-                <div className="col-sm-6">
-                    <Card icon={faCar} headerText="Car Loan" />
+                <div className="col-sm-6 pb-2">
+                    <Card icon={faPerson} headerText="Unsecure Business & Personal Loan" />
                 </div>
             </div>
             <div className="row pt-4 px-3">
-                <div className="col-sm-6">
-                    <Card icon={faCreditCard} headerText="Credit Card" />
+                <div className="col-sm-6 pb-2">
+                    <Card icon={faBuilding} headerText="Real Estate" />
                 </div>
-                <div className="col-sm-6">
-                    <Card icon={faTractor} headerText="Agri Loan" />
+                <div className="col-sm-6 pb-2">
+                    <Card icon={faTractor} headerText="Agriculture Loan" />
                 </div>
             </div>
         </>

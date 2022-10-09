@@ -10,7 +10,7 @@ export function About() {
                     Building a Brighter <br /> Financial Future &<br /> Good Support.
                 </label>
                 <label className="w-100 pt-4">
-                    JSC is a financial consulting firm based in Surendranagar, Gujarat.
+                    Jay Sardar Consultancy (JSC) is a financial consulting firm based in Surendranagar, Gujarat.
                     JSC strives to provide its clients with helpful, simple, and cost-free financial services.
                     Our company works with a <b>number of reputable banks</b>.
                     We have a team of <b>highly specialized, experienced</b>, and <b>nimble personnel</b>.
