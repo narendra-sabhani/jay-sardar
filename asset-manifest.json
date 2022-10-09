@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.df1ac7a4.css",
-    "main.js": "/static/js/main.da097274.js",
-    "static/js/787.0424f417.chunk.js": "/static/js/787.0424f417.chunk.js",
-    "index.html": "/index.html",
-    "main.df1ac7a4.css.map": "/static/css/main.df1ac7a4.css.map",
-    "main.da097274.js.map": "/static/js/main.da097274.js.map",
-    "787.0424f417.chunk.js.map": "/static/js/787.0424f417.chunk.js.map"
+    "main.css": "/jay-sardar/static/css/main.df1ac7a4.css",
+    "main.js": "/jay-sardar/static/js/main.68478ab1.js",
+    "static/js/787.0424f417.chunk.js": "/jay-sardar/static/js/787.0424f417.chunk.js",
+    "index.html": "/jay-sardar/index.html",
+    "main.df1ac7a4.css.map": "/jay-sardar/static/css/main.df1ac7a4.css.map",
+    "main.68478ab1.js.map": "/jay-sardar/static/js/main.68478ab1.js.map",
+    "787.0424f417.chunk.js.map": "/jay-sardar/static/js/787.0424f417.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df1ac7a4.css",
-    "static/js/main.da097274.js"
+    "static/js/main.68478ab1.js"
   ]
 }
