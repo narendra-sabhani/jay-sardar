@@ -2,6 +2,7 @@ import { faBuilding, faCar, faCreditCard, faHouse, faPerson, faTractor } from "@
 import { Card } from "./Card";
 
 export function Home() {
+    console.log("process.env.PUBLIC_URL",process.env.PUBLIC_URL)
     return (
         <>
             <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
