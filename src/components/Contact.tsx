@@ -85,11 +85,11 @@ export function Contact() {
                             </div>
                         </div>
                         <div className="row p-3">
-                            <div className="col-1 ps-3">
+                            <div className="col-1 ps-2">
                                 <FontAwesomeIcon icon={faMobileScreen} size={'2x'} className="icon-color" />
                             </div>
                             <div className="col-6 ps-5">
-                                <label className="">+91 74909 27777</label>
+                                <label className="">+91&nbsp;74909&nbsp;27777</label>
                             </div>
                         </div>
                         <div className="row p-3">

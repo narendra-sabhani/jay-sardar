@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function About() {
     return (
         <>
@@ -20,7 +22,9 @@ export function About() {
                     We help drive <b>innovation</b>, <b>inclusion</b>, and <b>access</b> across industry.
                 </label>
                 <div className="pt-5 text-center">
-                    <button type="button" className="btn btn-primary">Contact us</button>
+                    <Link className="" aria-current="page" to="/Contact">
+                        <button type="button" className="btn btn-primary"> Contact Us</button>
+                    </Link>
                 </div>
             </div>
         </>
