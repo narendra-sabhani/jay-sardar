@@ -5,7 +5,7 @@ export function Contact() {
     return (
         <>
             <div className="about">
-                <img src={process.env.PUBLIC_URL + "img/hero-bg.jpg"} className="d-block w-100 img-responsive" alt="..." />
+                <img src={process.env.PUBLIC_URL + "/img/hero-bg.jpg"} className="d-block w-100 img-responsive" alt="..." />
                 <label className="h1 centered">Contact Us</label>
             </div>
             <div className="container">

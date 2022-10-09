@@ -2,7 +2,7 @@ export function About() {
     return (
         <>
             <div className="about">
-                <img src={process.env.PUBLIC_URL + "img/hero-bg.jpg"} className="d-block w-100 img-responsive" alt="..." />
+                <img src={process.env.PUBLIC_URL + "/img/hero-bg.jpg"} className="d-block w-100 img-responsive" alt="..." />
                 <label className="h1 centered">About Us</label>
             </div>
             <div className="container w-50 text-center p-3">
