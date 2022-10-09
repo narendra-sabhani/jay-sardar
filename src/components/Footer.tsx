@@ -9,7 +9,7 @@ function Footer() {
             <footer className='mt-3'>
                 <div className="container-fluid">
                     <div className="row pt-4">
-                        <div className="col-md-2 ">
+                        <div className="col-md-2 pb-3">
                             <Link to="/">
                                 <img src={process.env.PUBLIC_URL + "/img/jay-sardar-full-logo.png"} alt="" width="150" height="100" />
                             </Link>
